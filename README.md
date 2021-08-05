@@ -12,7 +12,7 @@ To use this project locally you must have [python](https://www.python.org/downlo
 
 1. **Clone the repository:**
     ```sh
-    git clone -b main https://github.com/Kingard/data_wrangling_exercise.git
+    git clone -b master https://github.com/Kingard/DatopianProject.git
     ```
 2. **Setup the virtual environment by running:**
     ```sh
@@ -30,13 +30,13 @@ To use this project locally you must have [python](https://www.python.org/downlo
 ## Scripts
 
 ### European Union Road Safety Facts and Figures ?? ? ??
-Located at [natural_gas_prices/get_daily_prices.py](natural_gas_prices/get_ng_prices.py), this script *pandas* to fetch the **European Union Road Safety Facts and Figures table**. 
+Located at [scripts/script.py](scripts/script.py) this script *pandas* to fetch the **European Union Road Safety Facts and Figures table**. 
 
-There is just 1 function in the [script](natural_gas_prices/get_ng_prices.py), the **`get_data`** function.<br>
+There is just 1 function in the [scripts/script.py](scripts/script.py) the **`get_data`** function.<br>
 - The **`get_data_list`** function takes the [wikipedia](https://en.wikipedia.org/wiki/Road_safety_in_Europe), and returns a table (pandas dataframe) containing the relevant data fields associated with the European Union Road Safety's quantitative reports and then stores it in a **csv file**.
 
 
-The second script located at [natural_gas_prices/get_daily_prices.py](natural_gas_prices/get_ng_prices.py) contains a range of comparative plots for the data fields. <br> The plot images are located in [natural_gas_prices/get_daily_prices.py](natural_gas_prices/get_ng_prices.py) 
+The second script located at [scripts/script.py](scripts/script.py) contains a range of comparative plots for the data fields. <br> The plot images are located in [natural_gas_prices/get_daily_prices.py](natural_gas_prices/get_ng_prices.py) 
 
 1.  **Line Graph showing the vehicle ownership vs death curve** <br> This plot shows the correlation between vehicle ownership and death rate. It's intuitive to observe that death rate (via road accidents) is directly proportional to the increase in vehicle ownership over a given time window.  
 	```py
