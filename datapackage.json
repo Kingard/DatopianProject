@@ -1,0 +1,74 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "resource1",
+      "path": "data.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "field1",
+            "type": "integer",
+            "format": "default",
+            "title": "Index"
+          },
+          {
+            "name": "Country",
+            "type": "string",
+            "format": "default",
+            "title": "Country"
+          },
+          {
+            "name": "Area (thousands of km2)[24]",
+            "type": "integer",
+            "format": "default",
+            "title": "Area"
+          },
+          {
+            "name": "Population in 2018[25]",
+            "type": "integer",
+            "format": "default",
+            "title": "Population"
+          },
+          {
+            "name": "GDP per capita in 2018[26]",
+            "type": "integer",
+            "format": "default",
+            "title": "GDP-per-Capital"
+          },
+          {
+            "name": "Population density (inhabitants per km2) in 2017[27]",
+            "type": "integer",
+            "format": "default",
+            "title": "Population-density"
+          },
+          {
+            "name": "Vehicle ownership (per thousand inhabitants) in 2016[28]",
+            "type": "integer",
+            "format": "default",
+            "title": "Vehicle-ownership"
+          },
+          {
+            "name": "Total Road Deaths in 2018[30]",
+            "type": "integer",
+            "format": "default",
+            "title": "Total-Road-deaths"
+          },
+          {
+            "name": "Road deaths per Million Inhabitants in 2018[30]",
+            "type": "integer",
+            "format": "default",
+            "title": "Road-deaths-per-habitat"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "format": "default",
+            "title": "year"
+          }
+        ]
+      }
+    }
+  ]
+}
