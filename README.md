@@ -74,7 +74,7 @@ The second script located at [scripts/script.py](scripts/script.py) contains a r
 	plt.legend()
 	plt.show()
 	```
-	![](images/multivariate _density_plot.png)
+	![](images/multivariate_density_plot.png)
 
 4.  **Density Curve with histogram** <br> This is a combination of the density curve and histogram for total area (land mass) and total deaths as they area distributed over population density (per sq.km)
 	```py
