@@ -29,7 +29,7 @@ To use this project locally you must have [python](https://www.python.org/downlo
 
 ## Scripts
 
-### European Union Road Safety Facts and Figures ?? ? ??
+### European Union Road Safety Facts and Figures
 Located at [scripts/script.py](scripts/script.py) this script *pandas* to fetch the **European Union Road Safety Facts and Figures table**. 
 
 There is just 1 function in the [scripts/script.py](scripts/script.py) the **`get_data`** function.<br>
